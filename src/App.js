@@ -40,9 +40,7 @@ const App = () => {
         open: true,
         src: res.data + "",
       });
-      console.log(res.data);
       handleClose();
-      alert("Изображение загружено");
     });
   };
 
